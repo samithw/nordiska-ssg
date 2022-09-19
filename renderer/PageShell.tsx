@@ -2,7 +2,6 @@ import React from 'react'
 import { PageContextProvider } from './usePageContext'
 import type { PageContext } from './types'
 import './PageShell.css'
-import { Link } from './Link'
 import Header from '../src/components/Header'
 import Footer from '../src/components/Footer'
 
@@ -23,14 +22,6 @@ function PageShell({ children, pageContext }: { children: React.ReactNode; pageC
 }
 
 function Layout({ children }: { children: React.ReactNode }) {
-  return (
-    <div>
-      {children}
-    </div>
-  )
-}
-
-function Sidebar({ children }: { children: React.ReactNode }) {
   return (
     <div>
       {children}
