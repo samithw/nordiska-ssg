@@ -4,7 +4,8 @@
     "prod": "npm run build && npm run server:prod",
     "build": "vite build",
     "server": "ts-node ./server",
-    "server:prod": "cross-env NODE_ENV=production ts-node ./server"
+    "server:prod": "cross-env NODE_ENV=production ts-node ./server",
+    "preview": "vite preview"
   },
   "dependencies": {
     "@types/compression": "^1.7.2",
@@ -23,5 +24,10 @@
     "typescript": "^4.6.4",
     "vite": "^3.0.9",
     "vite-plugin-ssr": "^0.4.35"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.11",
+    "postcss": "^8.4.16",
+    "tailwindcss": "^3.1.8"
   }
 }
