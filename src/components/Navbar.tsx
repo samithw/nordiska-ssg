@@ -25,11 +25,11 @@ const Navbar = (props: Props) => {
       }
     })
 
-    document.querySelectorAll('.nav-item:not(.has-sub-menu) a , .sub-nav a').forEach((el)=>{
-        el.addEventListener("click" , (e) => {
-          setMenuStatus(false);
-        })
-    })
+    // document.querySelectorAll('.nav-item:not(.has-sub-menu) a , .sub-nav a').forEach((el)=>{
+    //     el.addEventListener("click" , (e) => {
+    //       setMenuStatus(false);
+    //     })
+    // })
   })
 
   

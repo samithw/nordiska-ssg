@@ -5,7 +5,7 @@
     "build": "vite build",
     "server": "ts-node ./server",
     "server:prod": "cross-env NODE_ENV=production ts-node ./server",
-    "preview": "vite preview"
+    "preview": "vite preview --host"
   },
   "dependencies": {
     "@types/compression": "^1.7.2",
