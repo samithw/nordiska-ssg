@@ -28,10 +28,19 @@ async function render(pageContext: PageContextServer) {
         <meta charset="UTF-8" />
  
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+        <link rel="shortcut icon" href="/images/favicon.ico" type="image/x-icon">
+        <link rel="icon" href="/images/favicon.ico" type="image/x-icon">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Zen+Dots&family=Zen+Loop&family=Zen+Maru+Gothic:wght@300;400&display=swap" rel="stylesheet">
+
+
         <meta name="description" content="${desc}" />
         <title>${title}</title>
       </head>
-      <body>
+      <body class="bg-black tracking-wide min-w-[320px]">
         <div id="page-view">${dangerouslySkipEscape(pageHtml)}</div>
       </body>
     </html>`

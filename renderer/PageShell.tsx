@@ -3,6 +3,8 @@ import { PageContextProvider } from './usePageContext'
 import type { PageContext } from './types'
 import './PageShell.css'
 import { Link } from './Link'
+import Header from '../src/components/Header'
+import Footer from '../src/components/Footer'
 
 export { PageShell }
 
@@ -11,16 +13,9 @@ function PageShell({ children, pageContext }: { children: React.ReactNode; pageC
     <React.StrictMode>
       <PageContextProvider pageContext={pageContext}>
         <Layout>
-          <Sidebar>
-
-            <Link className="navitem text-red-700" href="/">
-              Home
-            </Link>
-            <Link className="navitem" href="/about">
-              About
-            </Link>
-          </Sidebar>
+          <Header />
           <Content>{children}</Content>
+          <Footer />
         </Layout>
       </PageContextProvider>
     </React.StrictMode>
