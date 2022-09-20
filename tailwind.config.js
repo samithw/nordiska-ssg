@@ -3,6 +3,7 @@ module.exports = {
   content: [
     "./renderer/PageShell.tsx",
     "./renderer/_default.page.server.tsx",
+    "./renderer/_error.page.tsx",
     "./src/**/*.{js,ts,jsx,tsx}"
   ],
   theme: {
