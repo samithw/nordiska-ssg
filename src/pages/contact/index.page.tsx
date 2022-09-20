@@ -65,7 +65,7 @@ function Page() {
 
           
           
-          <ContentSeparater bgCSS = {{ backgroundColor : "#0b7dc4" }}>
+          <ContentSeparater bgCSS = {{ backgroundColor : "#3F5157" }}>
               {{
                 imageURLs : [
                   "/images/icon__contact__1.png",
