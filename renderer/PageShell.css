@@ -24,11 +24,11 @@
     }
 
     .nav-item a{
-        @apply px-3 text-2xl md:text-base py-1 inline-block w-full;
+        @apply px-3 text-2xl md:text-base py-1 inline-block w-full active:bg-teal-600;
     }
 
     .nav-item > a:not(.active) > span{
-        @apply border-b-4 pb-1 border-transparent hover:border-nsgreen;
+        @apply border-b-4 pb-1 border-transparent hover:border-nsgreen active:border-b-0;
         @apply h-32
     }
 
@@ -47,9 +47,5 @@
     .sub-nav a:not(.active) {
         @apply hover:underline hover:decoration-nsgreen hover:decoration-2;
     }
-}
-
-
-.text-shadow{
-    text-shadow: 2px 4px black;
+    
 }
