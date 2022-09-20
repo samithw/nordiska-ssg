@@ -8,8 +8,8 @@ export { Page }
 
 export const documentProps = {
   // This title and description will override the defaults
-  title: 'About Nordiska Solutions',
-  description: 'we strive to implement long-term relationships with our clients, based on extensive industry knowhow, quality services, reliable technologies, and thorough understanding of all parties involved in the business'
+  title: 'Channel Development and Channel Management - Nordiska Solutions',
+  description: 'We help clients make lasting improvements to the effectiveness of their sales investments and interactions with customers – across all channels – to drive sales growth'
 }
 
 function Page() {

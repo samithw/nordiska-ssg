@@ -5,9 +5,8 @@ import PageQuote from '../../components/PageQuote'
 export { Page }
 
 export const documentProps = {
-  // This title and description will override the defaults
-  title: 'About Nordiska Solutions',
-  description: 'we strive to implement long-term relationships with our clients, based on extensive industry knowhow, quality services, reliable technologies, and thorough understanding of all parties involved in the business'
+  title: 'Who we are - Nordiska Solutions',
+  description: 'Nordiska Solutions is a finnish-malaysian company which has developed a cluster business concept with some leading environmental companies in europe and asia specialised in water, wastewater and solid waste management technologies and solutions'
 }
 
 function Page() {

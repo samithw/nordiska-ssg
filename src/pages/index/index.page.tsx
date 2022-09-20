@@ -6,6 +6,11 @@ import { Link } from '../../../renderer/Link'
 
 export { Page }
 
+export const documentProps = {
+  title: 'Nordiska Solutions - We bridge two continents to bring you world-class service',
+  description: 'We are committed to providing optimal nordic cleantech to address today’s challenges across the nation and around the world, and to preparing for tomorrow’s environmental trends'
+}
+
 function Page() {
   return (
     <>

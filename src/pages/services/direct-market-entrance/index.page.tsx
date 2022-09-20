@@ -8,8 +8,8 @@ export { Page }
 
 export const documentProps = {
   // This title and description will override the defaults
-  title: 'About Nordiska Solutions',
-  description: 'we strive to implement long-term relationships with our clients, based on extensive industry knowhow, quality services, reliable technologies, and thorough understanding of all parties involved in the business'
+  title: 'Direct Market Entrance - Nordiska Solutions',
+  description: 'We manage your business in the asia-pacific region during the initial stages of your market entrance, literally creating your “own” asian office, or acting as your agent/partner in the region'
 }
 
 function Page() {

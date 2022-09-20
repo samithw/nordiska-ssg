@@ -9,8 +9,8 @@ export { Page }
 
 export const documentProps = {
   // This title and description will override the defaults
-  title: 'About Nordiska Solutions',
-  description: 'we strive to implement long-term relationships with our clients, based on extensive industry knowhow, quality services, reliable technologies, and thorough understanding of all parties involved in the business'
+  title: 'Gateway to Indian Market - Nordiska Solutions',
+  description: 'Nordiska Solutions has a tie-up with an indian specialist to support global cleantech technology companies to develop, nurture and manage their brand in the indian market through its customised “ACT” - advisory, consulting and technology'
 }
 
 function Page() {

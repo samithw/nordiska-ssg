@@ -25,15 +25,19 @@ async function render(pageContext: PageContextServer) {
   const documentHtml = escapeInject`<!DOCTYPE html>
   <html lang="en">
     <head>
+      <title>${title}</title>
+
       <meta charset="UTF-8" />
       <meta http-equiv="X-UA-Compatible" content="IE=edge" />
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <meta name="description" content="${desc}" />
 
       <meta property="og:title" content="${title}" />
+      <meta property="og:description" content="${desc}" />
+      <meta property="og:type" content="website" />
       <meta property="og:url" content="https://www.nordiskasolutions.com/" />
       <meta property="og:image" content="https://www.nordiskasolutions.com/images/nordiska__solutions__preview.jpg" />
-      <meta property="og:type" content="website" />
-      <meta property="og:description" content="${desc}" />
+      <meta property="og:image:type" content="image/jpeg">
 
       <link rel="shortcut icon" href="/images/favicon.ico" type="image/x-icon">
       <link rel="icon" href="/images/favicon.ico" type="image/x-icon">
@@ -41,9 +45,6 @@ async function render(pageContext: PageContextServer) {
       <link rel="preconnect" href="https://fonts.googleapis.com">
       <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
       <link href="https://fonts.googleapis.com/css2?family=Zen+Dots&family=Zen+Loop&family=Zen+Maru+Gothic:wght@300;400&display=swap" rel="stylesheet">
-
-      <meta name="description" content="${desc}" />
-      <title>${title}</title>
       </head>
       <body class="bg-black tracking-wide min-w-[320px]">
         <div id="page-view">${dangerouslySkipEscape(pageHtml)}</div>

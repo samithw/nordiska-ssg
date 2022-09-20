@@ -8,8 +8,8 @@ export { Page }
 
 export const documentProps = {
   // This title and description will override the defaults
-  title: 'About Nordiska Solutions',
-  description: 'we strive to implement long-term relationships with our clients, based on extensive industry knowhow, quality services, reliable technologies, and thorough understanding of all parties involved in the business'
+  title: 'Inbound and Outbound Marketing - Nordiska Solutions',
+  description: 'with inbound marketing, we help you generate qualified leads and increase awareness of your product(s) and service(s) to increase sales. we create original content – such as blog posts – to attract the right people, and refine them to influence purchase decision'
 }
 
 function Page() {

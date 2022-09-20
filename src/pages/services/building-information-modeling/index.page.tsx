@@ -8,8 +8,8 @@ export { Page }
 
 export const documentProps = {
   // This title and description will override the defaults
-  title: 'About Nordiska Solutions',
-  description: 'we strive to implement long-term relationships with our clients, based on extensive industry knowhow, quality services, reliable technologies, and thorough understanding of all parties involved in the business'
+  title: 'Building Information Modeling - Nordiska Solutions',
+  description: 'We are pleased to announce our partnership agreement with IBS Projects, a finnish-malaysian enterprise specializing in building information modeling (BIM) solutions.' 
 }
 
 function Page() {
