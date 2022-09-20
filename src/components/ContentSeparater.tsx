@@ -12,7 +12,7 @@ const ContentSeparater = (props: Props) => {
   const imgElements : React.ReactNode[] = [];
 
   props.children.imageURLs.forEach(url => {
-    imgElements.push(<div className='flex justify-center items-center w-1/3 md:w-1/6 aspect-square border-4 rounded-full p-[4%] border-white'><img className='w-[90%] mx-auto aspect-auto invert' src={url} /></div>) 
+    imgElements.push(<div key={url} className='flex justify-center items-center w-1/3 md:w-1/6 aspect-square border-4 rounded-full p-[4%] border-white'><img className='w-[90%] mx-auto aspect-auto invert' src={url} /></div>) 
   });
 
 
