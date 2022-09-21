@@ -21,7 +21,6 @@ async function render(pageContext: PageContextServer) {
   const { documentProps } = pageContext.exports
   const title = (documentProps && documentProps.title) || 'Nordiska Solutions - We bridge two continents to bring you world-class service'
   const desc = (documentProps && documentProps.description) || 'Nordiska Solutions is a finnish-malaysian company which has developed a cluster business concept with some leading environmental companies in europe and asia specialised in water, wastewater and solid waste management technologies and solutions'
-    //       <link rel="icon" href="${logoUrl}" />
   const documentHtml = escapeInject`<!DOCTYPE html>
   <html lang="en">
     <head>
@@ -35,7 +34,7 @@ async function render(pageContext: PageContextServer) {
       <meta property="og:title" content="${title}" />
       <meta property="og:description" content="${desc}" />
       <meta property="og:type" content="website" />
-      <meta property="og:url" content="https://www.nordiskasolutions.com/" />
+      <meta property="og:url" content="https://www.nordiskasolutions.com${pageContext.urlPathname}" />
       <meta property="og:image" content="https://www.nordiskasolutions.com/images/nordiska__solutions__preview.jpg" />
       <meta property="og:image:type" content="image/jpeg">
 

@@ -51,7 +51,7 @@ const Navbar = (props: Props) => {
         </li> */}
         <li className="nav-item has-sub-menu">
           <Link href="/services"><span>services</span></Link>
-          <ul className='md:absolute p-0 m-0 hidden border-2 border-teal-600 bg-[#282828] bg-opacity-70 rounded-b-xl md:rounded-tr-xl '>
+          <ul className='md:absolute p-0 m-0 md:hidden border-2 border-teal-600 bg-[#282828] bg-opacity-70 rounded-b-xl md:rounded-tr-xl '>
             <li className=' sub-nav'><Link href="/services/business-matchmaking"><span>business matchmaking</span></Link></li>
             <li className=' sub-nav'><Link href="/services/direct-market-entrance"><span>direct market entrance</span></Link></li>
             <li className=' sub-nav'><Link href="/services/direct-touch-sales-activities"><span>direct touch sales activities</span></Link></li>
